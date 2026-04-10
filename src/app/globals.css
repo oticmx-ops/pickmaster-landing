@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0B0F1A;
+  --surface: #111827;
+  --surface-elevated: #1F2937;
+  --primary: #2563EB;
+  --accent: #3B82F6;
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --border: #1F2937;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B5563;
+}
+
+/* Dot grid background */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(55, 65, 81, 0.55) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Subtle grid lines background */
+.grid-lines {
+  background-image:
+    linear-gradient(rgba(31, 41, 55, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 41, 55, 0.3) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Glow utility */
+.glow {
+  box-shadow: 0 0 40px rgba(37, 99, 235, 0.25);
+}
+
+.glow-sm {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.15);
+}
+
+.glow-lg {
+  box-shadow: 0 0 80px rgba(37, 99, 235, 0.2);
+}
+
+/* Gradient border effect */
+.gradient-border {
+  position: relative;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+    linear-gradient(135deg, #2563EB, #60A5FA, #2563EB) border-box;
+  border: 1px solid transparent;
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, #2563EB, #60A5FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Shimmer effect */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(37, 99, 235, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Float animation — preserves the -2deg tilt applied via Framer Motion */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(-2deg); }
+  50% { transform: translateY(-10px) rotate(-2deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulsing live dot */
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+}
+
+.live-dot {
+  animation: live-pulse 1.5s ease-in-out infinite;
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(37, 99, 235, 0.3);
+  color: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

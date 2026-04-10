@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "features": "Características",
+    "howItWorks": "Cómo funciona",
+    "faq": "FAQ",
+    "login": "Iniciar sesión",
+    "cta": "Entrar a la quiniela"
+  },
+  "hero": {
+    "badge": "Jornada en curso · Picks · Rankings · Quinielas en vivo",
+    "headline": "Haz tus picks.",
+    "headlineAccent": "Domina el ranking.",
+    "subheadline": "Compite con miles de jugadores en quinielas reales. Cada partido mueve el ranking. El top no espera.",
+    "cta": "Entrar a la quiniela",
+    "ctaSecondary": "Ver demo",
+    "trust": "Gratis para empezar · Sin tarjeta de crédito",
+    "joinLine": "Únete a +2,400 jugadores compitiendo ahora",
+    "timeLine": "Toma menos de 1 minuto · Completamente gratis"
+  },
+  "social": {
+    "players": "Jugadores activos compitiendo",
+    "pools": "Quinielas en juego",
+    "picks": "Picks esta jornada",
+    "accuracy": "Aciertos promedio top jugadores"
+  },
+  "problem": {
+    "badge": "El problema",
+    "headline": "Las quinielas son un caos",
+    "body": "Grupos desorganizados, picks en chats o Excel, resultados confusos y discusiones interminables. Nadie sabe quién va ganando hasta que ya es tarde.",
+    "solutionBadge": "La solución",
+    "solutionHeadline": "Así se vive una quiniela bien hecha",
+    "solutionBody": "Todo en un solo lugar. Ranking en tiempo real, historial transparente y competencia real contra otros jugadores jornada a jornada.",
+    "painPoints": [
+      "Grupos de WhatsApp desorganizados",
+      "Picks en Excel que nadie actualiza",
+      "Resultados confusos y disputados",
+      "Sin ranking, sin historial, sin control"
+    ],
+    "benefits": [
+      "Todo claro en un solo lugar",
+      "Ranking en tiempo real, jornada a jornada",
+      "Historial transparente para todos",
+      "Competencia real, sin disputas"
+    ]
+  },
+  "features": {
+    "badge": "Por qué PickMaster",
+    "headline": "Diseñado para que quieras competir",
+    "subheadline": "Cada detalle está pensado para que entrar sea fácil, competir sea justo y ganar se sienta brutal.",
+    "items": [
+      {
+        "title": "Picks en segundos, sin fricción",
+        "body": "Elige L, X o V para cada partido. Interfaz limpia que no te quita tiempo. Guarda y listo."
+      },
+      {
+        "title": "Ve exactamente en qué lugar estás",
+        "body": "El leaderboard se actualiza con cada resultado. Sabes tu posición en todo momento, sin preguntar."
+      },
+      {
+        "title": "Más entradas = más chances de ganar",
+        "body": "Juega con varias estrategias en la misma quiniela. Sin límite de entradas por jornada."
+      },
+      {
+        "title": "Sin WhatsApp, sin Excel, sin disputas",
+        "body": "Todo en un solo lugar. Picks, resultados y ranking transparente. Nadie puede decir que no sabía."
+      },
+      {
+        "title": "Nadie hace trampa. Todos juegan igual.",
+        "body": "Los picks se bloquean al cierre automáticamente. Sin modificaciones posibles. Competencia limpia."
+      },
+      {
+        "title": "Mira cómo evolucionas jornada a jornada",
+        "body": "Historial completo de picks y puntos. Aprende de cada jornada y mejora tu porcentaje de aciertos."
+      }
+    ],
+    "midCta": "Entrar a competir ahora"
+  },
+  "howItWorks": {
+    "badge": "Cómo funciona",
+    "headline": "En cuatro pasos estás compitiendo",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Crea tu cuenta",
+        "body": "Regístrate en segundos. Verifica tu email y ya estás listo para jugar."
+      },
+      {
+        "number": "02",
+        "title": "Únete a una quiniela",
+        "body": "Elige entre las quinielas activas. Crea una entrada (o varias) antes del cierre."
+      },
+      {
+        "number": "03",
+        "title": "Haz tus picks",
+        "body": "Selecciona Local, Empate o Visitante para cada partido. Guarda antes de que cierre."
+      },
+      {
+        "number": "04",
+        "title": "Compite y sube en el ranking",
+        "body": "Sigue los resultados en tiempo real. El ranking se mueve con cada partido. Un error te baja del top."
+      }
+    ]
+  },
+  "showcase": {
+    "badge": "El producto",
+    "headline": "Diseñado para ganar",
+    "tabs": ["Quiniela", "Leaderboard", "Mis picks"]
+  },
+  "startFree": {
+    "badge": "Gratis para siempre",
+    "headline": "Entra.",
+    "headlineAccent": "Juega. Compite.",
+    "subheadline": "Sin complicaciones. Entra, juega y compite desde hoy.",
+    "cta": "Empezar a competir",
+    "ctaNote": "Sin tarjeta · Sin compromiso · Empieza en segundos"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "headline": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Puedo jugar con mis amigos?",
+        "a": "Sí. Únanse a la misma quiniela y compitan en el mismo leaderboard. Ver cómo se mueven las posiciones en tiempo real es la mejor parte."
+      },
+      {
+        "q": "¿Cómo se gana?",
+        "a": "El que más puntos acumule al final. Cada pick correcto suma 1 punto. Simple, transparente, sin discusiones."
+      },
+      {
+        "q": "¿Puedo crear mi propia quiniela?",
+        "a": "Sí. Crea la quiniela, agrega los partidos, define la fecha de cierre y listo. Tus amigos entran y compiten directamente."
+      },
+      {
+        "q": "¿Qué pasa si fallo un pick?",
+        "a": "No pierdes nada. Solo no sumas en ese partido. Mientras queden partidos, todo puede cambiar. Un error no te saca de la jornada."
+      },
+      {
+        "q": "¿Necesito pagar para jugar?",
+        "a": "No. PickMaster es completamente gratis. Sin tarjeta, sin suscripción. Entra, juega y compite desde hoy mismo."
+      }
+    ],
+    "bottomCta": "Entrar a la quiniela"
+  },
+  "finalCta": {
+    "headline": "El ranking",
+    "headlineAccent": "no espera.",
+    "subheadline": "Entra hoy y empieza a competir desde la primera jornada.",
+    "cta": "Entrar a la quiniela",
+    "ctaNote": "Sin tarjeta · Sin compromiso · Empieza en segundos",
+    "trustItems": ["Gratis para empezar", "Sin complicaciones", "Juega desde cualquier dispositivo"]
+  },
+  "footer": {
+    "tagline": "La plataforma de quinielas deportivas para jugadores serios.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "links": {
+      "features": "Características",
+      "howItWorks": "Cómo funciona",
+      "faq": "FAQ",
+      "about": "Acerca de",
+      "blog": "Blog",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "copyright": "© 2025 PickMaster. Todos los derechos reservados."
+  }
+}

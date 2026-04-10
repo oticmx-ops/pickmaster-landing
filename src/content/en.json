@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "login": "Log in",
+    "cta": "Enter the pool"
+  },
+  "hero": {
+    "badge": "Round in progress · Picks · Rankings · Live pools",
+    "headline": "Make your picks.",
+    "headlineAccent": "Dominate the ranking.",
+    "subheadline": "Compete with thousands of players in real pools. Every match moves the ranking. The top won't wait.",
+    "cta": "Enter the pool",
+    "ctaSecondary": "Watch demo",
+    "trust": "Free to start · No credit card required",
+    "joinLine": "Join +2,400 players competing right now",
+    "timeLine": "Takes less than 1 minute · Completely free"
+  },
+  "social": {
+    "players": "Active players competing",
+    "pools": "Pools in play",
+    "picks": "Picks this round",
+    "accuracy": "Avg accuracy of top players"
+  },
+  "problem": {
+    "badge": "The problem",
+    "headline": "Pools are a mess",
+    "body": "Disorganized groups, picks in chats or Excel, confusing results and endless disputes. Nobody knows who's winning until it's too late.",
+    "solutionBadge": "The solution",
+    "solutionHeadline": "This is how a real pool feels",
+    "solutionBody": "Everything in one place. Real-time ranking, transparent history and real competition against other players round after round.",
+    "painPoints": [
+      "Disorganized WhatsApp groups",
+      "Excel sheets nobody updates",
+      "Confusing, disputed results",
+      "No ranking, no history, no control"
+    ],
+    "benefits": [
+      "Everything clear in one place",
+      "Live ranking, round after round",
+      "Transparent history for everyone",
+      "Real competition, no disputes"
+    ]
+  },
+  "features": {
+    "badge": "Why PickMaster",
+    "headline": "Designed to make you want to compete",
+    "subheadline": "Every detail is built so entry is easy, competition is fair, and winning feels incredible.",
+    "items": [
+      {
+        "title": "Picks in seconds, no friction",
+        "body": "Choose H, D or A for each match. Clean interface that doesn't waste your time. Save and done."
+      },
+      {
+        "title": "See exactly where you stand",
+        "body": "The leaderboard updates with every result. You know your position at all times, no guessing."
+      },
+      {
+        "title": "More entries = more chances to win",
+        "body": "Play multiple strategies in the same pool. No limit on entries per round."
+      },
+      {
+        "title": "No WhatsApp, no Excel, no disputes",
+        "body": "Everything in one place. Picks, results and ranking transparent for everyone."
+      },
+      {
+        "title": "Nobody cheats. Everyone plays fair.",
+        "body": "Picks lock at closing automatically. No changes possible. Clean competition."
+      },
+      {
+        "title": "Watch yourself improve round by round",
+        "body": "Full history of picks and points. Learn from every round and improve your accuracy."
+      }
+    ],
+    "midCta": "Start competing now"
+  },
+  "howItWorks": {
+    "badge": "How it works",
+    "headline": "Four steps and you're competing",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Create your account",
+        "body": "Sign up in seconds. Verify your email and you're ready to play."
+      },
+      {
+        "number": "02",
+        "title": "Join a pool",
+        "body": "Choose from active pools. Create one entry (or several) before closing."
+      },
+      {
+        "number": "03",
+        "title": "Make your picks",
+        "body": "Select Home, Draw or Away for each match. Save before it closes."
+      },
+      {
+        "number": "04",
+        "title": "Compete and climb the ranking",
+        "body": "Follow results in real time. The ranking shifts with every match. One wrong pick drops you."
+      }
+    ]
+  },
+  "showcase": {
+    "badge": "The product",
+    "headline": "Designed to win",
+    "tabs": ["Pool", "Leaderboard", "My picks"]
+  },
+  "startFree": {
+    "badge": "Free forever",
+    "headline": "Join.",
+    "headlineAccent": "Play. Compete.",
+    "subheadline": "No complications. Join, play and compete starting today.",
+    "cta": "Start competing",
+    "ctaNote": "No card · No commitment · Start in seconds"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "headline": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Can I play with my friends?",
+        "a": "Yes. Join the same pool and compete on the same leaderboard. Watching positions shift in real time is the best part."
+      },
+      {
+        "q": "How do you win?",
+        "a": "Most points at the end wins. Each correct pick adds 1 point. Simple, transparent, no disputes."
+      },
+      {
+        "q": "Can I create my own pool?",
+        "a": "Yes. Create the pool, add matches, set the closing date and you're done. Your friends join and compete directly."
+      },
+      {
+        "q": "What happens if I miss a pick?",
+        "a": "Nothing is lost. You just don't score that match. While matches remain, everything can change."
+      },
+      {
+        "q": "Do I need to pay to play?",
+        "a": "No. PickMaster is completely free. No card, no subscription. Join, play and compete starting today."
+      }
+    ],
+    "bottomCta": "Enter the pool"
+  },
+  "finalCta": {
+    "headline": "The ranking",
+    "headlineAccent": "doesn't wait.",
+    "subheadline": "Enter today and start competing from the very first round.",
+    "cta": "Enter the pool",
+    "ctaNote": "No card · No commitment · Start in seconds",
+    "trustItems": ["Free to start", "No complications", "Play from any device"]
+  },
+  "footer": {
+    "tagline": "The sports pool platform for serious players.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "howItWorks": "How it works",
+      "faq": "FAQ",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© 2025 PickMaster. All rights reserved."
+  }
+}

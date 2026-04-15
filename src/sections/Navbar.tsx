@@ -41,15 +41,14 @@ export default function Navbar() {
           {/* Logo */}
           <a
             href="#"
-            className="flex items-center gap-2 flex-shrink-0 group"
+            className="pm-nav-brand flex items-center flex-shrink-0"
             aria-label="PickMaster"
           >
-            <div className="w-7 h-7 rounded-lg bg-[#2563EB] flex items-center justify-center flex-shrink-0 group-hover:bg-[#1D4ED8] transition-colors duration-200">
-              <span className="text-white text-[10px] font-bold tracking-tight">PM</span>
-            </div>
-            <span className="text-[0.9375rem] font-bold text-white tracking-tight">
-              Pick<span className="text-[#3B82F6]">Master</span>
-            </span>
+            <img
+              src="/logo-full.svg"
+              alt="PickMaster"
+              className="pm-logo h-8 w-auto block"
+            />
           </a>
 
           {/* Desktop nav links */}

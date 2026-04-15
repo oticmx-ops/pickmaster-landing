@@ -40,12 +40,7 @@ function HeroMockup() {
         {/* App top bar */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-[#1F2937]">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-md bg-[#2563EB] flex items-center justify-center">
-              <span className="text-white text-[9px] font-bold tracking-tight">PM</span>
-            </div>
-            <span className="text-sm font-semibold text-white tracking-tight">
-              Pick<span className="text-[#3B82F6]">Master</span>
-            </span>
+            <img src="/logo-full.svg" alt="PickMaster" className="h-5 w-auto" />
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-emerald-400/20" />

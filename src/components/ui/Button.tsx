@@ -24,13 +24,13 @@ type ButtonProps =
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
-    "bg-[#2563EB] hover:bg-[#1D4ED8] text-white border border-[#3B82F6]/30 hover:border-[#3B82F6]/50 shadow-[0_0_24px_rgba(37,99,235,0.3)] hover:shadow-[0_0_40px_rgba(37,99,235,0.5)] active:shadow-[0_0_16px_rgba(37,99,235,0.2)]",
+    "bg-[#4F7FFF] hover:bg-[#3B6FF5] text-white border border-[#6E94FF]/30 hover:border-[#6E94FF]/60 shadow-[0_1px_0_rgba(255,255,255,0.2)_inset,0_8px_24px_rgba(59,111,245,0.35)] hover:shadow-[0_1px_0_rgba(255,255,255,0.28)_inset,0_16px_40px_rgba(59,111,245,0.65),0_0_0_3px_rgba(79,127,255,0.18)] hover:scale-[1.025] active:scale-[0.97]",
   secondary:
-    "bg-[#1F2937] hover:bg-[#374151] text-white border border-[#374151] hover:border-[#4B5563]",
+    "bg-[#151B2E] hover:bg-[#1A2235] text-white border border-[#1A2035] hover:border-[#2A3150]",
   ghost:
-    "bg-transparent hover:bg-[#1F2937]/60 text-[#D1D5DB] hover:text-white border border-transparent hover:border-[#1F2937]",
+    "bg-transparent hover:bg-[#151B2E]/80 text-[#E5E9F0] hover:text-white border border-[#1A2035] hover:border-[#4F7FFF]/40",
   outline:
-    "bg-transparent hover:bg-[#2563EB]/8 text-[#3B82F6] border border-[#2563EB]/40 hover:border-[#2563EB]/70",
+    "bg-transparent hover:bg-[#4F7FFF]/8 text-[#6E94FF] border border-[#4F7FFF]/40 hover:border-[#4F7FFF]/70",
 };
 
 const sizeStyles: Record<ButtonSize, string> = {

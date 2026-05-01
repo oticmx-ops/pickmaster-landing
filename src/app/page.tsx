@@ -1,29 +1,25 @@
 import Navbar from "@/sections/Navbar";
 import Hero from "@/sections/Hero";
-import SocialProof from "@/sections/SocialProof";
-import ProblemSolution from "@/sections/ProblemSolution";
-import Features from "@/sections/Features";
+import ActiveQuinielas from "@/sections/ActiveQuinielas";
 import HowItWorks from "@/sections/HowItWorks";
-import ProductShowcase from "@/sections/ProductShowcase";
-import Pricing from "@/sections/Pricing";
+import Features from "@/sections/Features";
 import FAQ from "@/sections/FAQ";
 import FinalCTA from "@/sections/FinalCTA";
 import Footer from "@/sections/Footer";
+import StickyCTA from "@/components/ui/StickyCTA";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background overflow-x-hidden">
+    <main className="min-h-screen bg-background overflow-x-hidden pb-[72px] md:pb-0">
       <Navbar />
       <Hero />
-      <SocialProof />
-      <ProblemSolution />
-      <Features />
+      <ActiveQuinielas />
       <HowItWorks />
-      <ProductShowcase />
-      <Pricing />
+      <Features />
       <FAQ />
       <FinalCTA />
       <Footer />
+      <StickyCTA />
     </main>
   );
 }

@@ -3,9 +3,9 @@ import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "PickMaster — Haz tus picks. Domina el ranking.",
+  title: "PickMaster",
   description:
-    "Crea quinielas deportivas, selecciona tus resultados y compite con otros jugadores en tiempo real. Simple, estratégico y adictivo.",
+    "Quinielas deportivas en vivo. Elige tus picks, compite en el ranking y gana premios reales — sin apuestas, sin complicaciones.",
   keywords: [
     "quinielas",
     "deportes",
@@ -17,18 +17,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "PickMaster" }],
   openGraph: {
-    title: "PickMaster — Haz tus picks. Domina el ranking.",
+    title: "PickMaster — Quinielas deportivas en vivo",
     description:
-      "Crea quinielas deportivas, selecciona tus resultados y compite con otros jugadores en tiempo real.",
+      "Elige tus picks, compite en el ranking y gana premios reales. Gratis para empezar.",
     type: "website",
     locale: "es_MX",
     siteName: "PickMaster",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PickMaster — Haz tus picks. Domina el ranking.",
+    title: "PickMaster — Quinielas deportivas en vivo",
     description:
-      "Crea quinielas deportivas, selecciona tus resultados y compite en tiempo real.",
+      "Elige tus picks, compite en el ranking y gana premios reales. Gratis para empezar.",
   },
   robots: {
     index: true,
@@ -51,9 +51,10 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       </head>

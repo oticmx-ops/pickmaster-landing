@@ -29,7 +29,8 @@ function AccordionItem({
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.08 }}
-      className="border border-border rounded-xl overflow-hidden"
+      className="rounded-xl overflow-hidden"
+      style={{ background: "#0E1322", border: "1px solid rgba(255,255,255,0.07)" }}
     >
       <button
         onClick={onToggle}
@@ -88,11 +89,30 @@ export default function FAQ() {
   }
 
   const fallbackItems: FAQItem[] = [
-    { q: "¿Necesito tarjeta de crédito para registrarme?", a: "No. El registro es completamente gratuito. Solo necesitas un email válido." },
-    { q: "¿Puedo crear múltiples entradas en la misma quiniela?", a: "Sí. Puedes crear tantas entradas como quieras en una misma quiniela, cada una con picks independientes." },
-    { q: "¿Cómo se calculan los puntos?", a: "Cada pick correcto suma 1 punto. El ranking se ordena por puntos totales, luego por picks correctos y finalmente por fecha de creación." },
-    { q: "¿Puedo cambiar mis picks después de guardarlos?", a: "Sí, mientras la quiniela esté abierta. Una vez pasada la fecha de cierre, los picks quedan bloqueados." },
-    { q: "¿Cómo sé que los resultados son justos?", a: "El administrador registra los resultados en el sistema. Una vez finalizada la quiniela, los datos son de solo lectura para todos." },
+    {
+      q: "¿Es legal? ¿Esto es apostar?",
+      a: "No. PickMaster es una plataforma de competencia de habilidad — no de apuestas. Tú no juegas contra la casa: juegas contra otros usuarios. La cuota de entrada es opcional y forma el premio que se reparte entre los mejores. Como un torneo de cualquier deporte.",
+    },
+    {
+      q: "¿Cómo gano el premio?",
+      a: "Cada quiniela tiene un premio formado por la entrada de los participantes. Los primeros lugares se llevan un porcentaje del bote según las reglas de cada quiniela. Los premios se asignan cuando cierra la jornada.",
+    },
+    {
+      q: "¿Puedo jugar gratis?",
+      a: "Sí — hay quinielas con entrada $0. Úsalas para practicar, conocer la app y empezar a aparecer en rankings antes de saltar a las premium.",
+    },
+    {
+      q: "¿Puedo crear quinielas privadas con amigos?",
+      a: "Totalmente. Define el deporte, la jornada, la entrada y a quién invitar. Tu liga, tus reglas, tus amigos.",
+    },
+    {
+      q: "¿Cuándo se cierran los picks?",
+      a: "Los picks se cierran al inicio del primer partido de cada jornada. Hasta ese momento puedes cambiarlos cuantas veces quieras.",
+    },
+    {
+      q: "¿Puedo crear múltiples entradas en la misma quiniela?",
+      a: "Sí. Puedes registrar tantas entradas como quieras en una misma quiniela, cada una con picks independientes. Más estrategia, más chances de ganar.",
+    },
   ];
 
   const displayItems = items.length > 0 ? items : fallbackItems;
@@ -100,11 +120,12 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-24 relative overflow-hidden">
       <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "radial-gradient(ellipse 60% 40% at 50% 100%, rgba(37,99,235,0.05), transparent)",
-        }}
+        className="absolute top-0 left-0 right-0 h-px"
+        style={{ background: "linear-gradient(90deg, transparent, rgba(79,127,255,0.2), transparent)" }}
+      />
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: "radial-gradient(ellipse 60% 40% at 50% 100%, rgba(79,127,255,0.05), transparent)" }}
       />
 
       <div ref={ref} className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -151,7 +172,7 @@ export default function FAQ() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="flex flex-col items-center gap-3 mt-12"
         >
-          <Button variant="primary" size="lg" href={appUrls.explore} iconRight={<ArrowRight size={16} />}>
+          <Button variant="primary" size="lg" href={appUrls.pools} iconRight={<ArrowRight size={16} />}>
             Explorar quinielas
           </Button>
           <p className="text-xs text-[#6B7280]">Sin tarjeta · Sin compromiso · Empieza en segundos</p>

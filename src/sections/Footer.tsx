@@ -53,10 +53,14 @@ export default function Footer() {
           <div className="col-span-2 sm:col-span-1">
             <a href="#" className="pm-nav-brand inline-flex items-center mb-4" aria-label="PickMaster">
               <img
-                src="/logo-full.svg"
+                src="/logo-icon.png"
                 alt="PickMaster"
-                className="pm-logo h-7 w-auto block"
+                className="pm-logo h-7 w-auto block rounded-lg"
               />
+              <span className="ml-2 text-sm font-extrabold tracking-tight leading-none">
+                <span className="text-white">Pick</span>
+                <span className="bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">Master</span>
+              </span>
             </a>
             <p className="text-sm text-[#6B7280] leading-relaxed max-w-[220px]">
               {t("footer.tagline")}

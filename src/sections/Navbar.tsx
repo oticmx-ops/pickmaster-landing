@@ -45,10 +45,14 @@ export default function Navbar() {
             aria-label="PickMaster"
           >
             <img
-              src="/logo-full.svg"
+              src="/logo-icon.png"
               alt="PickMaster"
-              className="pm-logo h-8 w-auto block"
+              className="pm-logo h-8 w-auto block rounded-lg"
             />
+            <span className="ml-2.5 text-base font-extrabold tracking-tight leading-none">
+              <span className="text-white">Pick</span>
+              <span className="bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">Master</span>
+            </span>
           </a>
 
           {/* Desktop nav links */}

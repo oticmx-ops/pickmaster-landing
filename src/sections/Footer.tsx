@@ -39,8 +39,8 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { Icon: IconFacebook, href: "#", label: "Facebook" },
-    { Icon: IconInstagram, href: "#", label: "Instagram" },
+    { Icon: IconFacebook, href: "https://www.facebook.com/share/1Ci5oo2A4m/?mibextid=wwXIfr", label: "Facebook" },
+    { Icon: IconInstagram, href: "https://www.instagram.com/pickmastermx?igsh=MXB3NzM1d3dqZm14cg%3D%3D&utm_source=qr", label: "Instagram" },
   ];
 
   return (
@@ -115,6 +115,8 @@ export default function Footer() {
                 key={label}
                 href={href}
                 aria-label={label}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#3D4458] hover:text-[#9CA3AF] hover:scale-110 hover:-translate-y-px transition-all duration-200"
               >
                 <Icon size={17} />

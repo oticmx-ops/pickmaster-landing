@@ -435,9 +435,9 @@ export default function Hero() {
               className="hidden sm:block text-base sm:text-lg leading-relaxed max-w-[480px]"
               style={{ color: "#9AA3B2" }}
             >
-              Las quinielas ya están activas.{" "}
-              <span className="text-white font-semibold">Elige una, registra tus picks</span>{" "}
-              y compite en el ranking en vivo — entra a competir en minutos, sin apuestas.
+              Únete a una quiniela activa,{" "}
+              <span className="text-white font-semibold">elige Local, Empate o Visitante</span>{" "}
+              y compite por el premio. Registra tus picks antes del cierre y sigue tu posición en el ranking en tiempo real.
             </motion.p>
 
             {/* Live indicators — hidden on mobile */}
@@ -451,11 +451,11 @@ export default function Hero() {
               className="flex flex-col items-start gap-2.5"
             >
               <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-                <Button variant="primary" size="lg" href="#quinielas" iconRight={<ChevronRight size={18} />} className="btn-cta-glow w-full sm:w-auto justify-center">
-                  Ver quinielas activas
-                </Button>
-                <Button variant="ghost" size="lg" href={appUrls.pools} className="w-full sm:w-auto justify-center">
+                <Button variant="primary" size="lg" href={appUrls.pools} iconRight={<ChevronRight size={18} />} className="btn-cta-glow w-full sm:w-auto justify-center">
                   Entrar a competir
+                </Button>
+                <Button variant="ghost" size="lg" href="#quinielas" className="w-full sm:w-auto justify-center">
+                  Ver quinielas activas
                 </Button>
               </div>
               {/* Urgency line below CTA */}
@@ -469,7 +469,7 @@ export default function Hero() {
               custom={4} variants={fadeUp} initial="hidden" animate="visible"
               className="flex flex-wrap items-center gap-x-4 gap-y-1.5"
             >
-              {["Entra en minutos", "Sin complicaciones", "Ranking en vivo"].map((item) => (
+              {["Quinielas activas todos los días", "Ranking en vivo", "Resultados transparentes", "Plataforma segura"].map((item) => (
                 <div key={item} className="flex items-center gap-1.5">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#34D399" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="20 6 9 17 4 12" />
@@ -490,7 +490,7 @@ export default function Hero() {
                   $<AnimatedNumber value={12400} />
                 </div>
                 <div className="text-[10px] font-semibold uppercase tracking-[0.08em] mt-1" style={{ color: "rgba(94,102,120,0.8)" }}>
-                  En premios repartidos
+                  En premios acumulados
                 </div>
               </div>
               <div>
@@ -506,7 +506,7 @@ export default function Hero() {
                   <AnimatedNumber value={94} />%
                 </div>
                 <div className="text-[10px] font-semibold uppercase tracking-[0.08em] mt-1" style={{ color: "rgba(94,102,120,0.8)" }}>
-                  Repiten cada jornada
+                  De satisfacción
                 </div>
               </div>
             </motion.div>

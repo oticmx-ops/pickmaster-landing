@@ -14,8 +14,8 @@ interface Step {
 const steps: Step[] = [
   {
     n: "01",
-    title: "Regístrate y elige",
-    desc: "Crea tu cuenta gratis en segundos. Verifica tu email y entra a la quiniela que más te guste — Liga MX, Champions, Premier o privadas con amigos.",
+    title: "Crea tu cuenta",
+    desc: "Regístrate gratis y accede a las quinielas disponibles. Verifica tu email y ya estás listo para competir.",
     accent: "blue",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -27,8 +27,8 @@ const steps: Step[] = [
   },
   {
     n: "02",
-    title: "Registra tus picks",
-    desc: "Predice Local, Empate o Visitante para cada partido antes del cierre. Cambia tus picks cuantas veces quieras hasta el deadline.",
+    title: "Envía tus picks",
+    desc: "Selecciona Local, Empate o Visitante para cada partido antes del cierre. Sin marcadores exactos, sin complicaciones.",
     accent: "amber",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -40,7 +40,7 @@ const steps: Step[] = [
   {
     n: "03",
     title: "Sube en el ranking",
-    desc: "Cada acierto suma puntos. La clasificación se actualiza en vivo y los mejores reciben su premio en cuanto cierra la jornada.",
+    desc: "Cada acierto suma puntos y te acerca al premio. La clasificación se actualiza en vivo con cada resultado.",
     accent: "green",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -83,7 +83,7 @@ export default function HowItWorks() {
             CÓMO FUNCIONA
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4">
-            Tres pasos. Cero apuestas.
+            Tres pasos. Cero complicaciones.
           </h2>
           <p className="text-text-secondary text-base sm:text-lg leading-relaxed">
             Una experiencia simple — pero pensada para que el que sepa de fútbol gane.

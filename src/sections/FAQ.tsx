@@ -90,28 +90,28 @@ export default function FAQ() {
 
   const fallbackItems: FAQItem[] = [
     {
-      q: "¿Es legal? ¿Esto es apostar?",
-      a: "No. PickMaster es una plataforma de competencia de habilidad — no de apuestas. Tú no juegas contra la casa: juegas contra otros usuarios. La cuota de entrada es opcional y forma el premio que se reparte entre los mejores. Como un torneo de cualquier deporte.",
+      q: "¿Esto es una apuesta?",
+      a: "No. PickMaster es una competencia de pronósticos deportivos. Ganas por acertar más resultados que otros participantes, no por apostar contra la casa.",
     },
     {
-      q: "¿Cómo gano el premio?",
-      a: "Cada quiniela tiene un premio formado por la entrada de los participantes. Los primeros lugares se llevan un porcentaje del bote según las reglas de cada quiniela. Los premios se asignan cuando cierra la jornada.",
+      q: "¿Cómo se determina el premio?",
+      a: "La bolsa acumulada se forma con las entradas de los participantes y se reparte entre quienes logren la mayor puntuación al cierre de la quiniela.",
     },
     {
-      q: "¿Puedo jugar gratis?",
-      a: "Sí — hay quinielas con entrada $0. Úsalas para practicar, conocer la app y empezar a aparecer en rankings antes de saltar a las premium.",
+      q: "¿Qué significa L, E y V?",
+      a: "L = gana el equipo local, E = empate, V = gana el equipo visitante. No se pronostican marcadores exactos.",
     },
     {
-      q: "¿Puedo crear quinielas privadas con amigos?",
-      a: "Totalmente. Define el deporte, la jornada, la entrada y a quién invitar. Tu liga, tus reglas, tus amigos.",
+      q: "¿Puedo tener varias entradas?",
+      a: "Sí, puedes participar con múltiples entradas en una misma quiniela, cada una con picks independientes. Más entradas, más posibilidades de ganar.",
     },
     {
       q: "¿Cuándo se cierran los picks?",
-      a: "Los picks se cierran al inicio del primer partido de cada jornada. Hasta ese momento puedes cambiarlos cuantas veces quieras.",
+      a: "Los picks se bloquean automáticamente en la fecha y hora de cierre de cada quiniela. No es posible modificarlos después.",
     },
     {
-      q: "¿Puedo crear múltiples entradas en la misma quiniela?",
-      a: "Sí. Puedes registrar tantas entradas como quieras en una misma quiniela, cada una con picks independientes. Más estrategia, más chances de ganar.",
+      q: "¿Puedo jugar gratis?",
+      a: "Algunas quinielas promocionales pueden ser gratuitas. Consulta las quinielas activas para ver las condiciones de cada una.",
     },
   ];
 

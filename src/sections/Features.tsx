@@ -151,22 +151,22 @@ const featureBlocks = [
   {
     icon: <Globe size={18} />,
     title: "Múltiples ligas",
-    desc: "Liga MX, Champions, Premier, La Liga y torneos especiales. Todas en un solo lugar.",
+    desc: "Liga MX, Champions League, Premier League y más. Todas las quinielas en un solo lugar.",
   },
   {
     icon: <Users size={18} />,
-    title: "Quinielas privadas",
-    desc: "Crea ligas con amigos, define el premio y juega solo entre ustedes. Tú pones las reglas.",
+    title: "Premios transparentes",
+    desc: "La bolsa acumulada muestra exactamente lo que se repartirá. Sin sorpresas ni letra chica.",
   },
   {
     icon: <Smartphone size={18} />,
-    title: "Picks en segundos",
-    desc: "Interfaz limpia para registrar L, E o V por partido. Sin fricción, sin pasos extras.",
+    title: "Múltiples entradas",
+    desc: "Participa varias veces en la misma quiniela con picks distintos. Más estrategia, más posibilidades.",
   },
   {
     icon: <Shield size={18} />,
     title: "Cierre automático",
-    desc: "Los picks se bloquean al inicio del primer partido. Sin trampas, competencia 100% limpia.",
+    desc: "Los picks se bloquean al llegar la hora límite. Sin modificaciones posibles, competencia limpia.",
   },
 ];
 

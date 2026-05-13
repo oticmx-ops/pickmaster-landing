@@ -5,7 +5,7 @@ import { I18nProvider } from "@/lib/i18n";
 export const metadata: Metadata = {
   title: "PickMaster",
   description:
-    "Quinielas deportivas en vivo. Elige tus picks, compite en el ranking y gana premios reales — sin apuestas, sin complicaciones.",
+    "Únete a una quiniela activa, elige Local, Empate o Visitante y compite por el premio. Ranking en tiempo real, resultados transparentes.",
   keywords: [
     "quinielas",
     "deportes",

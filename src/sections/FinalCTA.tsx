@@ -8,9 +8,9 @@ import { useCountdown } from "@/hooks/useCountdown";
 import { appUrls } from "@/lib/app-urls";
 
 const trustItems = [
-  "Sin tarjeta para empezar",
-  "Quinielas gratis disponibles",
-  "Cancela cuando quieras",
+  "Plataforma segura",
+  "Rankings en vivo",
+  "Resultados transparentes",
 ];
 
 export default function FinalCTA() {
@@ -94,7 +94,7 @@ export default function FinalCTA() {
             transition={{ delay: 0.22, duration: 0.6 }}
             className="text-lg text-text-secondary max-w-md mx-auto mb-10 leading-relaxed"
           >
-            Crea tu cuenta gratis y aparece en el ranking antes de la próxima jornada.
+            Regístrate, envía tus picks y compite por el premio.
           </motion.p>
 
           {/* CTAs */}
